@@ -17,9 +17,10 @@ columns.forEach(status => {
     .forEach(task => {
       const card = document.createElement("div")
       card.className = "task"
-      card.textContent = task.title
+      card.textContent = `${task.title} (${task.priority.toUpperCase()})`
       column.appendChild(card)
     })
 
   board.appendChild(column)
 })
+
