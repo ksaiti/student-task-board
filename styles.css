@@ -26,3 +26,7 @@ h1  {
   text-align: center;
 }
 
+.high {
+  background-color: yellow;
+  font-weight: bold;
+}
